@@ -1,3 +1,7 @@
+![n8n](https://img.shields.io/badge/n8n-FF6D5B?style=flat-square&logo=n8n&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
 # X-Seller | AI Conversational Architecture & Workflow Orchestration
 
 ## 📝 Descrição Técnica
