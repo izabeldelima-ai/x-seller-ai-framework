@@ -77,18 +77,51 @@ A solução adota uma abordagem de **Workflows Modulares** no n8n, evitando mon�
 
 #### 1. Core AI & Orchestration
 ![Agente Principal](https://github.com/user-attachments/assets/77f5bb7a-fe7e-49ca-85ec-a9a9e3ac3a98)
-
 *O cérebro da operação: Orquestração de IA, CRM e Hand-off humano.*
+
+<br>
 
 #### 2. Recovery & Revenue Assurance
 ![Recuperação de Vendas](https://github.com/user-attachments/assets/1e283a3a-78e8-4aee-8a6d-3fa5959b278a)
-
 *Loops de recuperação financeira: Monitoramento de Carrinhos, Pix e Boletos.*
+
+<br>
 
 #### 3. Customer Success & Onboarding
 ![Compra Aprovada](https://github.com/user-attachments/assets/fffceacc-1528-41a0-a35d-07bd07cef06c)
-
 *Pós-venda imediato: Garantia de entrega e satisfação do cliente.*
+
+<br>
+
+### 🔄 CRM Autônomo (Real-Time Sync)
+
+Abaixo, a demonstração prática do conceito **"Zero Data Entry"**.
+Enquanto o Agente de IA negocia com o lead no WhatsApp, o n8n orquestra a movimentação dos cards no Trello em tempo real, garantindo que o pipeline de vendas esteja sempre atualizado sem intervenção humana.
+
+#### 🤖 1. Qualificação Inteligente & Enriquecimento
+No momento em que o lead inicia a conversa, o sistema captura os metadados iniciais. Após a interação e confirmação de dados pelo usuário, o Supabase e o CRM são atualizados instantaneamente, criando o card na coluna de entrada.
+
+![Qualificação de Lead](https://github.com/user-attachments/assets/6469e050-ccd4-40c4-8549-30a158078f76)
+_Pipeline dinâmico: Sincronização automática entre intenção de chat, registro no Supabase e visualização no Trello._
+
+<br>
+
+#### 💸 2. Recuperação Automática (Pix & Boleto)
+Monitoramento ativo de webhooks financeiros. Assim que um pagamento é gerado (pendente) ou falha, o agente move o card para o estágio de "Recuperação" e dispara o follow-up específico para converter a venda.
+
+![Fluxo de Recuperação](https://github.com/user-attachments/assets/c883b7e0-b819-45ff-8f0c-ac16b1c32786)
+_Revenue Assurance: O sistema atua no exato momento da falha ou pendência de pagamento para maximizar o ROI._
+
+<br>
+
+#### 🚀 3. Onboarding Imediato (Compra Aprovada)
+O fluxo "Happy Path":
+`Aprovação de compra detectada` -> `Boas-vindas enviadas` -> `Acesso liberado`.
+Zero latência entre o pagamento e a entrega do produto, garantindo a satisfação do cliente (CX).
+
+![Onboarding Cliente](https://github.com/user-attachments/assets/cf3935c8-6ad4-4aef-859f-53704a8508dc)
+_Customer Experience: Automação ponta a ponta que elimina o delay humano no pós-venda imediato._
+
 
 <br>
 
