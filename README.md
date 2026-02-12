@@ -98,6 +98,9 @@ A solução adota uma abordagem de **Workflows Modulares** no n8n, evitando mon�
 Abaixo, a demonstração prática do conceito **"Zero Data Entry"**.
 Enquanto o Agente de IA negocia com o lead no WhatsApp, o n8n orquestra a movimentação dos cards no Trello em tempo real, garantindo que o pipeline de vendas esteja sempre atualizado sem intervenção humana.
 
+
+
+
 #### 🤖 1. Qualificação Inteligente & Enriquecimento
 No momento em que o lead inicia a conversa, o sistema captura os metadados iniciais. Após a interação e confirmação de dados pelo usuário, o Supabase e o CRM são atualizados instantaneamente, criando o card na coluna de entrada.
 
